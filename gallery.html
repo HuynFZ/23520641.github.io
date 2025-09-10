@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery kỷ niệm - Nguyễn Văn Mạnh Huy</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="navbar-container">
+        <a href="index.html" class="logo" tabindex="1">
+          <img src="images/frame_image.png" alt="Ảnh đại diện Nguyễn Văn Mạnh Huy" width="48" height="48" loading="lazy">
+          <span>Nguyễn Văn Mạnh Huy</span>
+        </a>
+        <ul>
+          <li><a href="index.html" tabindex="2">Trang chủ</a></li>
+          <li><a href="info.html" tabindex="3">Thông tin</a></li>
+          <li><a href="projects.html" tabindex="4">Dự án</a></li>
+          <li><a href="experience.html" tabindex="5">Kinh nghiệm</a></li>
+          <li><a href="hobbies.html" tabindex="6">Sở thích</a></li>
+          <li><a href="strengths.html" tabindex="7">Thế mạnh</a></li>
+          <li><a href="favorite-books.html" tabindex="8">Sách yêu thích</a></li>
+          <li><a href="certificates.html" tabindex="9">Chứng chỉ</a></li>
+          <li class="active"><a href="gallery.html" tabindex="10">Gallery</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1 tabindex="10">Gallery kỷ niệm</h1>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/memory1.webp" alt="Kỷ niệm 1" loading="lazy" tabindex="0">
+          <div class="caption">Chuyến đi Đà Lạt 2024</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/memory2.webp" alt="Kỷ niệm 2" loading="lazy" tabindex="0">
+          <div class="caption">Sinh nhật cùng bạn bè</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/memory3.webp" alt="Kỷ niệm 3" loading="lazy" tabindex="0">
+          <div class="caption">Tham gia giải bóng đá UIT</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/memory4.webp" alt="Kỷ niệm 4" loading="lazy" tabindex="0">
+          <div class="caption">Tình nguyện mùa hè xanh</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/memory5.webp" alt="Kỷ niệm 5" loading="lazy" tabindex="0">
+          <div class="caption">Du lịch biển Nha Trang</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/memory6.webp" alt="Kỷ niệm 6" loading="lazy" tabindex="0">
+          <div class="caption">Workshop lập trình web</div>
+        </div>
+      </div>
+      <div id="lightbox" class="lightbox" tabindex="-1" aria-modal="true" role="dialog">
+        <div class="lightbox-content">
+          <button class="lightbox-close" aria-label="Đóng">&times;</button>
+          <img id="lightbox-img" src="" alt="">
+          <div id="lightbox-caption" class="lightbox-caption"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Nguyễn Văn Mạnh Huy.</p>
+  </footer>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
