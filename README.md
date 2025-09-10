@@ -39,9 +39,6 @@
 ## Bản quyền nội dung
 
 - **Nội dung thông tin cá nhân, mô tả dự án, kinh nghiệm, kỹ năng**: thuộc về Nguyễn Văn Mạnh Huy.
-- **Ảnh đại diện, bìa sách, ảnh gallery**: sử dụng từ nguồn công cộng như [Unsplash](https://unsplash.com/) hoặc [Open Library](https://openlibrary.org/), đã ghi chú nguồn ở từng trang.
 - **Mã nguồn website**: bạn có thể sử dụng cho mục đích học tập, tham khảo, không sử dụng cho mục đích thương mại khi chưa có sự cho phép của tác giả.
 
 ---
-
-> Nếu bạn sử dụng lại mã nguồn hoặc nội dung, vui lòng ghi rõ
